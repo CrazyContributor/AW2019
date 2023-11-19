@@ -4,7 +4,7 @@ SET ANSI_PADDING ON
 GO
 CREATE TABLE [dbo].[Categories] (
 		[CategoryID]       [int] IDENTITY(1, 2) NOT NULL,
-		[CategoryName]     [nvarchar](20) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
+		[CategoryName]     [nvarchar](25) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
 		[Description]      [ntext] COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 		[Picture]          [image] NULL,
 		CONSTRAINT [PK_Categories]
